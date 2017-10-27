@@ -3,7 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+	#div1{
+		width:100px;
+		height:100px;
+		background:red;
+		position:absolute;
+	}
+	</style>
 	<script type="text/javascript" src="./Drag.js"></script>
+	<script>
+	window.onload=function(){
+		Drag("div1");
+	}
+	</script>
 </head>
 <body>
 	<div id="div1"></div>
